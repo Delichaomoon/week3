@@ -1,0 +1,14 @@
+.logo a{
+	display: block;
+	width: 80px;
+	height: 49px;
+	background-image: url(../../image/logo-white.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	text-indent: 101%;
+	white-space:nowrap;
+	overflow: hidden;
+}
+.menu li{
+	padding: 25px 32px;
+}

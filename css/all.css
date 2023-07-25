@@ -1,0 +1,35 @@
+@import url(./layout.css/reset.css);
+@import url(./layout.css/header.css);
+@import url(./layout.css/footer.css);
+body{
+  font-family: 'Noto Sans TC', 'Roboto' , sans-serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.container{
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.bg-red{
+  background: #AA0601;
+}
+.d-flex{
+  display: flex;
+}
+.jc-sb{
+  justify-content: space-between;
+}
+.aic{
+  align-items: center;
+}
+.fz36{
+  font-size: 36px;
+}

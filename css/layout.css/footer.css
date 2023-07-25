@@ -1,0 +1,40 @@
+.footer-choice{
+	padding-top: 48px;
+}
+.icon a{
+	display: block;
+	width: 48px;
+	height: 48px;
+	background-size: contain;
+}
+.fb a{
+	background-image: url(../../image/ic-social-fb.png);
+}
+.ig a{
+	background-image: url(../../image/ic_social_ig.png);
+}
+.line a{
+	background-image: url(../../image/ic_social_line.png);
+}
+.f-menu li{
+	padding-right:48px;
+}
+.icon li{
+	padding-left: 32px;
+}
+footer p{
+	color: #fff;
+}
+.f-contact{
+	margin-top: 24px;
+	margin-bottom: 8px;
+}
+.copyright p{
+	padding: 32px 0;
+}
+.privacy li{
+	padding-left: 48px;
+}
+hr{
+	margin-top: 32px;
+}
