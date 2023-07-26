@@ -1,6 +1,7 @@
 @import url(./layout.css/reset.css);
 @import url(./layout.css/header.css);
 @import url(./layout.css/footer.css);
+@import url(./components/index.css);
 body{
   font-family: 'Noto Sans TC', 'Roboto' , sans-serif;
   line-height: 1.5;
@@ -24,12 +25,51 @@ a{
 .d-flex{
   display: flex;
 }
+.column{
+  flex-direction: column;
+}
 .jc-sb{
   justify-content: space-between;
+}
+.jc-fe{
+  justify-content: flex-end;
+}
+.jcc{
+  justify-content: center;
+}
+.jc-fe{
+  justify-content: flex-end;
+}
+.tac{
+  text-align: center;
+}
+.tar{
+  text-align: right;
 }
 .aic{
   align-items: center;
 }
+.ai-fe{
+  align-items: flex-end;
+}
+.fz20{
+  font-size: 20px;
+}
+.fz24{
+  font-size: 24px;
+}
 .fz36{
   font-size: 36px;
+}
+.fz48{
+  font-size: 48px;
+}
+.fz64{
+  font-size: 64px;
+}
+.fwb{
+  font-weight: bold;
+}
+.mb4{
+  margin-bottom: 4px;
 }
