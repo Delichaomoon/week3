@@ -1,3 +1,16 @@
+.series a{
+  width: 432px;
+}
 .series li{
-  padding: 24px 119px;
+  padding: 24px 0;
+}
+.optical-img{
+  width: 50%;
+}
+.combi-menu{
+  flex-wrap: wrap;
+}
+.combi-menu li{
+  width: 23%;
+  margin-bottom: 80px;
 }

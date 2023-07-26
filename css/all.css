@@ -40,6 +40,9 @@ a{
 .red{
   color: #AA0601;
 }
+.black{
+  color: #000;
+}
 .white{
   color: #fff;
 }
@@ -70,6 +73,9 @@ a{
 .jc-fe{
   justify-content: flex-end;
 }
+.jc-sa{
+  justify-content: space-around;
+}
 .tac{
   text-align: center;
 }
@@ -94,8 +100,14 @@ a{
 .fz24{
   font-size: 24px;
 }
+.fz32{
+  font-size: 32px;
+}
 .fz36{
   font-size: 36px;
+}
+.fz42{
+  font-size: 42px;
 }
 .fz48{
   font-size: 48px;
@@ -124,6 +136,9 @@ a{
 .mb24{
   margin-bottom: 24px;
 }
+.mb32{
+  margin-bottom: 32px;
+}
 .mb33{
   margin-bottom: 33px;
 }
@@ -132,6 +147,9 @@ a{
 }
 .py8{
   padding: 8px 0;
+}
+.py24{
+  padding: 24px 0;
 }
 .py80{
   padding: 80px 0;
