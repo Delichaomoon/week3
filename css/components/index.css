@@ -17,3 +17,55 @@
 	background: #FBF2F2;
 	color: #650300;
 }
+
+.service li{
+	width: 23.5%;
+}
+.service img{
+	width: 84px;
+	height: 84px;
+}
+.service p{
+	color: #000;
+}
+.classic li{
+	width: 416px;
+}
+.design{
+	background-image: url(../../image/index-bg.png);
+	background-size: cover;
+	background-position: center center;
+}.bd-pink{
+  border: 1px solid pink;
+}
+.recommand li{
+	width: 306px;
+}
+.recommand-txt{
+	border: 1px solid #DEE2E6;
+	box-shadow: 0px 2px 6px #00000029;
+	justify-self: end;
+	padding: 16px;
+}
+.recommand-txt p:last-of-type{
+	padding-top: 72px;
+}
+.input-group input{
+	height: 30px;
+}
+.input-group input,
+.input-group textarea{
+	display: block;
+	width: 636px;
+}
+#feedback{
+	resize: none;
+}
+#agree{
+	width: 16px;
+	height: 16px;
+	margin-right: 4px;
+}
+button{
+	padding: 16px 176px;
+}

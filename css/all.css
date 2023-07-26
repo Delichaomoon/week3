@@ -10,6 +10,7 @@ body{
 img{
   max-width: 100%;
   height: auto;
+  display: block;
 }
 a{
   text-decoration: none;
@@ -19,8 +20,36 @@ a{
   max-width: 1296px;
   margin: 0 auto;
 }
+.m0-a{
+  margin: 0 auto;
+  display: block;
+}
+.mra{
+  margin-right: auto;
+}
 .bg-red{
   background: #AA0601;
+}
+.bg-white{
+  background: #fff;
+}
+.brown{
+  color: #650300;
+}
+.red{
+  color: #AA0601;
+}
+.white{
+  color: #fff;
+}
+.gray{
+  color: #707070;
+}
+.w636{
+  width: 636px;
+}
+.d-block{
+  display: block;
 }
 .d-flex{
   display: flex;
@@ -46,11 +75,17 @@ a{
 .tar{
   text-align: right;
 }
+.tal{
+  text-align-last: left;
+}
 .aic{
   align-items: center;
 }
 .ai-fe{
   align-items: flex-end;
+}
+.fz14{
+  font-size: 14px;
 }
 .fz20{
   font-size: 20px;
@@ -70,6 +105,33 @@ a{
 .fwb{
   font-weight: bold;
 }
+.fw900{
+  font-weight: 900;
+}
+.fsi{
+  font-style: italic;
+}
 .mb4{
   margin-bottom: 4px;
+}
+.mb8{
+  margin-bottom: 8px;
+}
+.mb16{
+  margin-bottom: 16px;
+}
+.mb24{
+  margin-bottom: 24px;
+}
+.mb33{
+  margin-bottom: 33px;
+}
+.mb48{
+  margin-bottom: 48px;
+}
+.py8{
+  padding: 8px 0;
+}
+.py80{
+  padding: 80px 0;
 }
