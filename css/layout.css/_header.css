@@ -12,3 +12,8 @@
 .menu li{
 	padding: 25px 0 25px 64px;
 }
+@media(max-width: 768px){
+	.menu li{
+		padding-left: 64px;
+	}
+}
