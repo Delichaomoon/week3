@@ -6,6 +6,7 @@
 2. 您的作業等級，請見下方等級表，例如 LV1
 3. 作業網址：請提供 GitHub Pages 以及 Github Repo 連結，以方便助教與講師檢視（可以參考「[Github Pages 免費架站空間教學](https://courses.hexschool.com/courses/202011221/lectures/47249830)」上傳方式）
 4. 訓練菜單：請到此[*連結*](https://hackmd.io/iE6mxohOS-ujKU398Ewk1w)挑選 2~3 個訓練菜單，並回報您增加哪些技能的熟練度。
+5. [google Fonts](https://fonts.google.com/icons)
 
 ### 作業等級表
 1. LV1：只做 header 與 footer 的 RWD
