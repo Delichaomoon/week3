@@ -18,8 +18,36 @@ a{
   color: #fff;
 }
 .container{
-  max-width: 1296px;
+  /* 1296+12*2 = 1320, 這樣子 container 內層最大寬度才會是 1296px */
+  max-width: 1320px;
   margin: 0 auto;
+  padding: 0 12px;
+  /* 平板 */
+  @media (max-width: 768px) {
+    max-width: 720px;
+  }
+  /* 手機 */
+  @media (max-width: 375px) {
+    max-width: 372px;
+  }
+}
+.row{
+  margin: 0 -12px;
+}
+.col-3{
+  width: 25%;
+}
+.col-4{
+  width: 33.333%;
+}
+.col-6{
+  width: 50%;
+}
+.col-12{
+  width: 100%;
+}
+.px12{
+  padding: 0 12px;
 }
 .m0-a{
   margin: 0 auto;
@@ -49,9 +77,6 @@ a{
 .gray{
   color: #707070;
 }
-.w636{
-  width: 636px;
-}
 .d-block{
   display: block;
 }
@@ -60,6 +85,9 @@ a{
 }
 .column{
   flex-direction: column;
+}
+.flex-wrap{
+  flex-wrap: wrap;
 }
 .jc-sb{
   justify-content: space-between;
@@ -84,6 +112,9 @@ a{
 }
 .tal{
   text-align-last: left;
+}
+.ais{
+  align-items: start;
 }
 .aic{
   align-items: center;
@@ -148,6 +179,9 @@ a{
 .py8{
   padding: 8px 0;
 }
+.py16{
+  padding: 16px 0;
+}
 .py24{
   padding: 24px 0;
 }
@@ -155,9 +189,14 @@ a{
   padding: 80px 0;
 }
 
-@media(max-width: 768px){
-	.container{
-		max-width: 696px;
-		margin: 0 auto;
-	}
+
+/* 375px */
+@media(max-width:375px){
+  .container{
+    /* 375-27*2+24 = 372px */
+    max-width: 372px;
+  }
+  .col-sm-6{
+    width: 50%;
+  }
 }

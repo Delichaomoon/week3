@@ -17,19 +17,12 @@
 	background: #FBF2F2;
 	color: #650300;
 }
-
-.service li{
-	width: 23.5%;
-}
 .service img{
 	width: 84px;
 	height: 84px;
 }
 .service p{
 	color: #000;
-}
-.classic li{
-	width: 416px;
 }
 .design{
 	background-image: url(../../image/index-bg.png);
@@ -38,9 +31,7 @@
 }.bd-pink{
   border: 1px solid pink;
 }
-.recommand li{
-	width: 306px;
-}
+
 .recommand-txt{
 	border: 1px solid #DEE2E6;
 	box-shadow: 0px 2px 6px #00000029;
@@ -50,23 +41,22 @@
 .recommand-txt p:last-of-type{
 	padding-top: 72px;
 }
-.input-group input{
-	height: 30px;
+.input-style{
+	background-color: transparent;
+	padding: 6px 12px;
+	border: 1px solid #000;
+	width: 100%;
 }
-.input-group input,
-.input-group textarea{
-	display: block;
-	width: 636px;
-}
-#feedback{
+.feedback{
 	resize: none;
+	min-height: 136px;
 }
-#agree{
-	width: 16px;
-	height: 16px;
-	margin-right: 4px;
+.agree{
+	width: 20px;
+	height: 20px;
+	margin: 4px 4px 0 0;
 }
-button{
-	padding: 16px 176px;
-	color: #fff;
+.btn{
+	max-width: 416px;
+	padding: 16px;
 }

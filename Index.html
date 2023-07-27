@@ -15,10 +15,10 @@
 <body>
 <!-- header紅色 -->
   <header class="bg-red">
-    <div class="container d-flex jc-sb aic">
+    <div class="container nav d-flex jc-sb aic">
       <h1 class="logo"><a href="#">logo</a></h1>
-      <ul class="menu d-flex">
-        <li><a href="#">系列鏡框</a></li>
+      <ul class="menu d-flex aic">
+        <li class=""><a href="#">系列鏡框</a></li>
         <li><a href="#">門市據點</a></li>
         <li><a href="#">部落格</a></li>
         <li><a href="#">常見問題</a></li>
@@ -28,7 +28,7 @@
 <!-- banner -->
   <section class="banner">
     <div class="container">
-      <div class="banner-txt d-flex column ai-fe">
+      <div class="banner-txt d-flex column ai-fe jcc">
         <p class="fz36">Promise-Desert 2020 早春系列</p>
         <h2 class="fz64 fwb mb4">看得清，才能看得遠</h2>
         <a class="fz20" href="#">立即購買</a>
@@ -39,23 +39,23 @@
   <section class="bg-pink py80">
     <div class="container">
       <h3 class="fz48 fwb tac mb33">用專業的心，做專業的事</h3>
-      <ul class="service tac d-flex jc-sb">
-        <li>
+      <ul class="service row tac d-flex jc-sb">
+        <li class=".col-3 px12">
           <img class="m0-a mb24" src="./image/home-section2-1.png" alt="2-1">
           <h3 class="fz24 mb8">單一價格</h3>
           <p class="tal">無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
         </li>
-        <li>
+        <li class=".col-3 px12">
           <img class="m0-a mb24" src="./image/home-section2-2.png" alt="2-2">
           <h3 class="fz24 mb8">20 分鐘即可取件</h3>
           <p class="tal">為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
         </li>
-        <li>
+        <li class=".col-3 px12">
           <img class="m0-a mb24" src="./image/home-section2-3.png" alt="2-3">
           <h3 class="fz24 mb8">安心售後服務</h3>
           <p class="tal">我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
         </li>
-        <li>
+        <li class=".col-3 px12">
           <img class="m0-a mb24" src="/image/home-sectioin2-4.png" alt="2-4">
           <h3 class="fz24 mb8">關於鏡片</h3>
           <p class="tal">使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
@@ -66,16 +66,16 @@
 <!-- 經典系列 -->
   <section class="container tac py80">
     <h3 class="fz48 mb48 fwb brown">經典系列鏡框</h3>
-    <ul class="classic d-flex jc-sb">
-      <li>
+    <ul class="classic row d-flex jc-sb">
+      <li class="col-4">
         <img src="./image/home-section3-1.png" alt="3-1">
         <p class="fz48 fsi red fw900">OPTICAL</p>
       </li>
-      <li>
+      <li class="col-4">
         <img src="./image/home-section3-2.png" alt="3-2">
         <p class="fz48 fsi red fw900">SUNGLASSES</p>
       </li>
-      <li>
+      <li class="col-4">
         <img src="./image/home-section3-3.png" alt="3-3">
         <p class="fz48 fsi red fw900">FUNCTIONAL</p>
       </li>
@@ -86,11 +86,11 @@
     <div class="container tac">
       <h3 class="fwb fz48 mb48 white">聯名設計鏡框</h3>
       <ul class="glasses d-flex">
-        <li>
+        <li class="col-6">
           <img src="./image/home-section4-1.png" alt="4-1">
           <p class="fz48 red fsi fw900 bg-white bd-pink py8">DOUBLE A+</p>
         </li>
-        <li>
+        <li class="col-6">
           <img src="./image/home-section4-2.png" alt="4-2">
           <p class="fz48 red fsi fw900 bg-white bd-pink py8">YOUTH</p>
         </li>
@@ -101,7 +101,7 @@
 <section class="container py80">
   <h3 class="fz48 fwb brown tac mb48">顧客推薦</h3>
   <ul class="recommand d-flex jc-sb">
-    <li>
+    <li class="col-3 px12">
       <img src="./image/home-section5-1.png" alt="5-1">
       <div class="recommand-txt">
         <p class="mb8">Jessy</p>
@@ -109,7 +109,7 @@
         <p class="gray fz14">2021/06/20</p>
       </div>
     </li>
-    <li>
+    <li class="col-3 px12">
       <img src="./image/home-section5-2.png" alt="5-2">
       <div class="recommand-txt">
         <p class="mb8">凱倫</p>
@@ -117,7 +117,7 @@
         <p class="gray fz14">2021/04/18</p>
       </div>
     </li>
-    <li>
+    <li class="col-3 px12">
       <img src="./image/home-section5-3.png" alt="5-3">
       <div class="recommand-txt d-flex column">
         <p class="mb8">悠悠</p>
@@ -125,7 +125,7 @@
         <p class="gray fz14">2020/12/25</p>
       </div>
     </li>
-    <li>
+    <li class="col-3 px12">
       <img src="./image/home-section5-4.png" alt="5-4">
       <div class="recommand-txt">
         <p class="mb8">Kyuan</p>
@@ -136,36 +136,40 @@
   </ul>
 </section>
 <!-- 聯絡我們 -->
-<div class="w636 m0-a contact-us py80 mb16">
+<div class="contact-us py80">
   <h3 class="tac brown fz48 fwb mb48">聯絡我們</h3>
-  <p class="mb24 fz20">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
-  <ul class="input-group tal mb48">
-    <li>
-      <label for="" class="mb8">姓名
-        <input placeholder="陳小明" class="mb16" type="text">
-      </label>
-    </li>
-    <li>
-      <label for="" class="mb8">聯絡電話
-        <input placeholder="0912-345-678" class="mb16" type="tel">
-      </label>
-    </li>
-    <li>
-      <label for="" class="mb8">電子郵件
-        <input placeholder="example@email.com" class="mb16" type="email">
-      </label>
-    </li>
-    <li>
-      <label for="feedback">意見反應</label>
-      <textarea placeholder="請輸入您的意見" id="feedback"  class="mb16 d-block" rows="8" type="textarea"></textarea>
-    </li>
-    <li class="data d-flex aic">
-      <input type="checkbox" name="agree" id="agree">
-      <label for="agree">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
-    </li>
-  </ul>
-  <button class="bg-red m0-a" type="submit">確認送出</button>
-</div>
+  <div class="container m0-a mb16">
+    <div class="col-6 m0-a">
+      <p class="mb24 m0-a fz20">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+      <form class="input-group mb48">
+        <div class="mb16">
+          <label class="mb8 d-blcok">姓名
+            <input placeholder="陳小明" class="input-style" type="text">
+          </label>
+        </div>  
+        <div class="mb16">
+          <label class="mb8">聯絡電話
+            <input placeholder="0912-345-678" class="input-style" type="tel">
+          </label>
+        </div>
+        <div class="mb16">
+          <label class="mb8">電子郵件
+            <input placeholder="example@email.com" class="input-style" type="email">
+          </label>
+        </div>
+        <div class="mb16">
+          <label for="feedback" class="d-block">意見反應</label>
+          <textarea placeholder="請輸入您的意見" class="input-style" id="feedback" class="feedback" rows="8" type="textarea"></textarea>
+        </div>
+        <div class="d-flex ais mb48">
+          <input class="agree" type="checkbox" name="agree" id="agree">
+          <label for="agree">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。</label>
+        </div>
+        <a hreg="#" class="btn bg-red tac m0-a d-block">確認送出</a>
+      </form>
+    </div>
+  </div>
+</div> 
 <!-- footer -->
   <footer class="bg-red">
     <div class="container">
