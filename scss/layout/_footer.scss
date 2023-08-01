@@ -1,4 +1,8 @@
 footer{
   color: var(--white);
   background-color: var(--red);
+  a {
+    text-decoration: none;
+    color: var(--white);
+  }
 }
