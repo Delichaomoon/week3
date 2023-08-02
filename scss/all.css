@@ -525,7 +525,40 @@ footer a {
   text-indent: 101%;
   white-space: nowrap;
   overflow: hidden;
+  transition: all 0.3s;
+}
+.navbar .logo:hover {
+  opacity: 0.5;
 }
 .navbar-menu a {
   color: #fff;
+  transition: all 0.5s;
+  border-bottom: solid 2px transparent;
+}
+.navbar-menu a:hover {
+  border-bottom: solid 2px #fff;
+}
+@media (max-width: 767px) {
+  .navbar {
+    padding-bottom: 0;
+  }
+  .navbar .container {
+    flex-direction: column;
+    align-items: start;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 100%;
+  }
+  .navbar .navbar-menu {
+    flex-wrap: wrap;
+  }
+  .navbar .navbar-menu li {
+    width: 50%;
+    border: 1px solid #ffffff;
+  }
+  .navbar .navbar-menu a {
+    font-size: 16px;
+    text-align: center;
+    padding: 12px 0;
+  }
 }/*# sourceMappingURL=all.css.map */
