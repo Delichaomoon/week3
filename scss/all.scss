@@ -1,5 +1,8 @@
+// 基本配置
+@import "tools/variables";
+@import "tools/utilities";
+
 @import "base/reset";
 @import "base/fontStyle";
 @import "layout/footer";
-@import "tools/variables";
-@import "tools/utilities"
+@import "layout/nav";

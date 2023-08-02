@@ -32,6 +32,73 @@ $font-weight-type: (
 $color-type: (
   primary: #AA0601,
   secondary: #650300,
-  light: #FBF2F2,
-)
+  bright: #FBF2F2,
+  info: #707070
+);
+
+@each $name, $color in $color-type {
+  .bg-#{$name} {
+    background: $color;
+  }
+  .text-#{$name} {
+    color: $color;
+  }
+}
+
+// 3.推擠變數 : dafault 16px
+$space-base: 1rem !default;
+// 8/16/24/48/64/80
+$space-type: (
+  1: $space-base * 0.5,
+  2: $space-base,
+  3: $space-base * 1.5,
+  4: $space-base * 3,
+  5: $space-base * 4,
+  6: $space-base * 5
+);
+
+@each $name, $size in $space-type {
+  // margin
+  .mt-#{$name} {
+    margin-top: $size;
+  }
+  .mb-#{$name} {
+    margin-bottom: $size;
+  }
+  .my-#{$name} {
+    margin-top: $size;
+    margin-bottom: $size;
+  }
+  .mx-#{$name} {
+    margin-left: $size;
+    margin-right: $size;
+  }
+  .me-#{$name} {
+    margin-right: $size;
+  }
+  .ms-#{$name} {
+    margin-left: $size;
+  }
+  // padding
+  .ps-#{$name} {
+    padding-left: $name;
+  }
+  .pe-#{$name} {
+    padding-right: $name;
+  }
+  .pt-#{$name} {
+    padding-top: $name;
+  }
+  .pb-#{$name} {
+    padding-bottom: $name;
+  }
+  .px-#{name} {
+    padding-left: $name;
+    padding-right: $name;
+  }
+  .py-#{name} {
+    padding-top: $name;
+    padding-bottom: $name;
+  }
+}
 

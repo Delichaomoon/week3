@@ -3,30 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./scss/all.css">
   <title>第三週-眼鏡形象網站</title>
+  <!-- Google Font 中文 思源黑體: Regular、Medium500 、Bold700 -->
+  <!-- Google Font 英文 Roboto: Regular400、Medium500、 Bold700、 Black900Italic -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">
+  <!-- Google Icons API  -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <!-- 自訂 CSS -->
+  <link rel="stylesheet" href="./scss/all.css">
 </head>
 <body>
-<!-- header紅色 -->
-  <header class="bg-red">
-    <div class="container nav d-flex jc-sb aic">
-      <h1 class="logo"><a href="#">logo</a></h1>
-      <ul class="menu d-flex aic">
-        <li><a class="fz20" href="#">系列鏡框</a></li>
-        <li><a class="fz20" href="#">門市據點</a></li>
-        <li><a class="fz20" href="#">部落格</a></li>
-        <li><a class="fz20" href="#">常見問題</a></li>
+<!-- nav紅色 -->
+  <nav class="navbar bg-primary">
+    <div class="container flex jc-sb aic">
+      <h1><a class="logo" href="#">logo</a></h1>
+      <ul class="navbar-menu flex jc-e">
+        <li><a class="fz-5 ms-5" href="#">系列鏡框</a></li>
+        <li><a class="fz-5 ms-5" href="#">門市據點</a></li>
+        <li><a class="fz-5 ms-5" href="#">部落格</a></li>
+        <li><a class="fz-5 ms-5" href="#">常見問題</a></li>
       </ul>
     </div>
-  </header>
+  </nav>
+
 <!-- banner -->
-  <section class="banner">
+  <header class="banner">
     <div class="container">
       <div class="banner-txt d-flex column ai-fe jcc">
         <p class="fz36">Promise-Desert 2020 早春系列</p>
@@ -34,75 +37,79 @@
         <a class="fz20" href="#">立即購買</a>
       </div>
     </div>
-  </section>
+  </header>
+
 <!-- 專業 -->
   <section class="bg-pink py80">
     <div class="container">
       <h3 class="fz48 fwb tac mb33">用專業的心，做專業的事</h3>
       <ul class="service row tac d-flex jc-sb">
         <li class=".col-3 px12">
-          <img class="m0-a mb24" src="./image/home-section2-1.png" alt="2-1">
+          <img class="m0-a mb24" src="./image/index/home-section2-1.png" alt="2-1">
           <h3 class="fz24 mb8">單一價格</h3>
           <p class="tal">無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
         </li>
         <li class=".col-3 px12">
-          <img class="m0-a mb24" src="./image/home-section2-2.png" alt="2-2">
+          <img class="m0-a mb24" src="./image/index/home-section2-2.png" alt="2-2">
           <h3 class="fz24 mb8">20 分鐘即可取件</h3>
           <p class="tal">為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
         </li>
         <li class=".col-3 px12">
-          <img class="m0-a mb24" src="./image/home-section2-3.png" alt="2-3">
+          <img class="m0-a mb24" src="./image/index/home-section2-3.png" alt="2-3">
           <h3 class="fz24 mb8">安心售後服務</h3>
           <p class="tal">我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
         </li>
         <li class=".col-3 px12">
-          <img class="m0-a mb24" src="/image/home-sectioin2-4.png" alt="2-4">
+          <img class="m0-a mb24" src="/image/index/home-sectioin2-4.png" alt="2-4">
           <h3 class="fz24 mb8">關於鏡片</h3>
           <p class="tal">使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
         </li>
       </ul>
     </div>
   </section>
+
 <!-- 經典系列 -->
   <section class="container tac py80">
     <h3 class="fz48 mb48 fwb brown">經典系列鏡框</h3>
     <ul class="classic row d-flex jc-sb">
       <li class="col-4">
-        <img src="./image/home-section3-1.png" alt="3-1">
+        <img src="./image/index/home-section3-1.png" alt="3-1">
         <p class="fz48 fsi red fw900">OPTICAL</p>
       </li>
       <li class="col-4">
-        <img src="./image/home-section3-2.png" alt="3-2">
+        <img src="./image/index/home-section3-2.png" alt="3-2">
         <p class="fz48 fsi red fw900">SUNGLASSES</p>
       </li>
       <li class="col-4">
-        <img src="./image/home-section3-3.png" alt="3-3">
+        <img src="./image/index/home-section3-3.png" alt="3-3">
         <p class="fz48 fsi red fw900">FUNCTIONAL</p>
       </li>
     </ul>
   </section>
+
 <!-- 聯名設計 -->
   <section class="design py80">
     <div class="container tac">
       <h3 class="fwb fz48 mb48 white">聯名設計鏡框</h3>
       <ul class="glasses d-flex">
         <li class="col-6">
-          <img src="./image/home-section4-1.png" alt="4-1">
+          <img src="./image/index/home-section4-1.png" alt="4-1">
           <p class="fz48 red fsi fw900 bg-white bd-pink py8">DOUBLE A+</p>
         </li>
         <li class="col-6">
-          <img src="./image/home-section4-2.png" alt="4-2">
+          <img src="./image/index/home-section4-2.png" alt="4-2">
           <p class="fz48 red fsi fw900 bg-white bd-pink py8">YOUTH</p>
         </li>
       </ul>
     </div>
   </section>
+
 <!-- 顧客推薦 -->
 <section class="container py80">
   <h3 class="fz48 fwb brown tac mb48">顧客推薦</h3>
   <ul class="recommand d-flex jc-sb">
     <li class="col-3 px12">
-      <img src="./image/home-section5-1.png" alt="5-1">
+      <img src="./image/index/home-section5-1.png" alt="5-1">
       <div class="recommand-txt">
         <p class="mb8">Jessy</p>
         <p>眼鏡品質優良，下次還會想來這邊購買！</p>
@@ -110,7 +117,7 @@
       </div>
     </li>
     <li class="col-3 px12">
-      <img src="./image/home-section5-2.png" alt="5-2">
+      <img src="./image/index/home-section5-2.png" alt="5-2">
       <div class="recommand-txt">
         <p class="mb8">凱倫</p>
         <p>做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
@@ -118,7 +125,7 @@
       </div>
     </li>
     <li class="col-3 px12">
-      <img src="./image/home-section5-3.png" alt="5-3">
+      <img src="./image/index/home-section5-3.png" alt="5-3">
       <div class="recommand-txt d-flex column">
         <p class="mb8">悠悠</p>
         <p>謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
@@ -126,7 +133,7 @@
       </div>
     </li>
     <li class="col-3 px12">
-      <img src="./image/home-section5-4.png" alt="5-4">
+      <img src="./image/index/home-section5-4.png" alt="5-4">
       <div class="recommand-txt">
         <p class="mb8">Kyuan</p>
         <p>服務很好，品質沒有任何問題，非常喜歡。</p>
@@ -135,6 +142,7 @@
     </li>
   </ul>
 </section>
+
 <!-- 聯絡我們 -->
 <div class="contact-us py80">
   <h3 class="tac brown fz48 fwb mb48">聯絡我們</h3>
@@ -170,8 +178,9 @@
     </div>
   </div>
 </div> 
+
 <!-- footer -->
-  <footer class="bg-red pt-48">
+  <footer class="bg-primary pt-48">
     <div class="container">
       <div class="footer-choice d-flex jc-sb aic">
         <ul class="f-menu d-flex">

@@ -1,0 +1,47 @@
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+.block {
+  display: block;
+}
+.flex {
+  display: flex;
+}
+.jc-s {
+  justify-content: start;
+}
+.jc-e {
+  justify-content: end;
+}
+.jc-c {
+  justify-content: center;
+}
+.jc-sb {
+  justify-content: space-between;
+}
+.aic {
+  align-items: center;
+}
+.column {
+  flex-direction: column;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.relative {
+  position: relative;
+}
+.text-center {
+  text-align: center;
+}
+.text-start {
+  text-align: left;
+}
+.text-end {
+  text-align: right;
+}
+.fz-32{
+  font-size: 32px;
+}
