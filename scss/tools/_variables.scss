@@ -94,11 +94,11 @@ $space-type: (
   .pb-#{$name} {
     padding-bottom: $size;
   }
-  .px-#{name} {
+  .px-#{$name} {
     padding-left: $size;
     padding-right: $size;
   }
-  .py-#{name} {
+  .py-#{$name} {
     padding-top: $size;
     padding-bottom: $size;
   }

@@ -3,8 +3,19 @@
   background-image: url(.././image/index/home-header.png);
   background-size: cover;
   height: 100vh;
+  @include pad {
+    background-image: url(.././image/index/home-header-sm.png);
+  }
   &-wrap {
     height: 100%;
+    @include mobile {
+      p {
+        font-size: 16px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+    }
   }
   &-txt {
     a {
@@ -23,12 +34,38 @@
 
 // service
 .service {
+  h3 {
+    font-size: 24px;
+  }
   &-list {
+    @include pad {
+      flex-wrap: wrap;
+    }
     li {
-      width: 23.6;
+      width: 23.6%;
+      @include pad {
+        width: 48.2%;
+      }
+      @include mobile {
+        width: 100%;
+      }
+      &:nth-child(1),
+      &:nth-child(2) {
+        @include pad {
+          margin-bottom: 24px;
+        }
+      }
+      &:nth-child(3) {
+        @include mobile {
+          margin-bottom: 24px;
+        }
+      }
       img {
         width: 100px;
         height: 100px;
+      }
+      p {
+        text-align: center;
       }
     }
   }
