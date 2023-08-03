@@ -17,6 +17,7 @@ $font-size-type:(
 }
 
 $font-weight-type: (
+  regular: 300,
   medium: 400,
   bold: 700,
   bolder: 900
@@ -33,6 +34,7 @@ $color-type: (
   primary: #AA0601,
   secondary: #650300,
   bright: #FBF2F2,
+  light: #ffffff,
   info: #707070
 );
 
@@ -54,7 +56,7 @@ $space-type: (
   3: $space-base * 1.5,
   4: $space-base * 3,
   5: $space-base * 4,
-  6: $space-base * 5
+  6: $space-base * 5,
 );
 
 @each $name, $size in $space-type {
@@ -79,6 +81,7 @@ $space-type: (
   .ms-#{$name} {
     margin-left: $size;
   }
+  // padding
   .ps-#{$name} {
     padding-left: $size;
   }

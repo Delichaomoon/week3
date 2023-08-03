@@ -1,0 +1,35 @@
+// banner
+.banner {
+  background-image: url(.././image/index/home-header.png);
+  background-size: cover;
+  height: 100vh;
+  &-wrap {
+    height: 100%;
+  }
+  &-txt {
+    a {
+      display: inline-block;
+      padding: 6px 12px;
+      border: 1px solid map-get($color-type, primary);
+      cursor: pointer;
+      transition: all 0.3s;
+      &:hover {
+        color:map-get($color-type, primary);
+        background: map-get($color-type, light);
+      }
+    }
+  }
+}
+
+// service
+.service {
+  &-list {
+    li {
+      width: 23.6;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+}

@@ -24,6 +24,9 @@
 .aic {
   align-items: center;
 }
+.aie{
+  align-items: end;
+}
 .column {
   flex-direction: column;
 }
@@ -44,6 +47,12 @@
 }
 .fz-32{
   font-size: 32px;
+}
+.mb4{
+  margin-bottom: 4px;
+}
+.mb32{
+  margin-bottom: 32px;
 }
 .ms-32{
   margin-left: 32px;

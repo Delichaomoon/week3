@@ -22,6 +22,10 @@
   font-size: 0.875rem;
 }
 
+.fw-regular {
+  font-weight: 300;
+}
+
 .fw-medium {
   font-weight: 400;
 }
@@ -56,6 +60,14 @@
 
 .text-bright {
   color: #FBF2F2;
+}
+
+.bg-light {
+  background: #ffffff;
+}
+
+.text-light {
+  color: #ffffff;
 }
 
 .bg-info {
@@ -412,6 +424,10 @@
   align-items: center;
 }
 
+.aie {
+  align-items: end;
+}
+
 .column {
   flex-direction: column;
 }
@@ -438,6 +454,14 @@
 
 .fz-32 {
   font-size: 32px;
+}
+
+.mb4 {
+  margin-bottom: 4px;
+}
+
+.mb32 {
+  margin-bottom: 32px;
 }
 
 .ms-32 {
@@ -608,7 +632,7 @@ body {
   padding: 16px 0;
 }
 .navbar .logo {
-  background-image: url(../../image/nav/logo-white.png);
+  background-image: url(.././image/nav/logo-white.png);
   background-size: contain;
   width: 80px;
   height: 49px;
@@ -670,4 +694,32 @@ body {
   .conatiner {
     padding: 0 12px;
   }
+}
+
+.banner {
+  background-image: url(.././image/index/home-header.png);
+  background-size: cover;
+  height: 100vh;
+}
+.banner-wrap {
+  height: 100%;
+}
+.banner-txt a {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid #AA0601;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.banner-txt a:hover {
+  color: #AA0601;
+  background: #ffffff;
+}
+
+.service-list li {
+  width: 23.6;
+}
+.service-list li img {
+  width: 100px;
+  height: 100px;
 }/*# sourceMappingURL=all.css.map */
