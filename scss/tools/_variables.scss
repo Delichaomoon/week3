@@ -79,26 +79,26 @@ $space-type: (
   .ms-#{$name} {
     margin-left: $size;
   }
-  // padding
   .ps-#{$name} {
-    padding-left: $name;
+    padding-left: $size;
   }
   .pe-#{$name} {
-    padding-right: $name;
+    padding-right: $size;
   }
   .pt-#{$name} {
-    padding-top: $name;
+    padding-top: $size;
   }
   .pb-#{$name} {
-    padding-bottom: $name;
+    padding-bottom: $size;
   }
   .px-#{name} {
-    padding-left: $name;
-    padding-right: $name;
+    padding-left: $size;
+    padding-right: $size;
   }
   .py-#{name} {
-    padding-top: $name;
-    padding-bottom: $name;
+    padding-top: $size;
+    padding-bottom: $size;
   }
 }
+
 

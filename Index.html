@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,900&display=swap" rel="stylesheet">
   <!-- Google Icons API  -->
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,200" />
   <!-- 自訂 CSS -->
   <link rel="stylesheet" href="./scss/all.css">
 </head>
@@ -18,7 +18,7 @@
 <!-- nav紅色 -->
   <nav class="navbar bg-primary">
     <div class="container flex jc-sb aic">
-      <h1><a class="logo" href="#">logo</a></h1>
+      <h1><a class="logo" href="Index.html">logo</a></h1>
       <ul class="navbar-menu flex jc-e">
         <li><a class="fz-5 ms-5" href="#">系列鏡框</a></li>
         <li><a class="fz-5 ms-5" href="#">門市據點</a></li>
@@ -180,42 +180,45 @@
 </div> 
 
 <!-- footer -->
-  <footer class="bg-primary pt-48">
+  <footer class="footer bg-primary pt-4">
     <div class="container">
-      <div class="footer-choice d-flex jc-sb aic">
-        <ul class="f-menu d-flex">
-          <li><a href="#">首頁</a></li>
-          <li><a href="#">系列鏡框</a></li>
-          <li><a href="#">門市據點</a></li>
-          <li><a href="#">部落格</a></li>
-          <li><a href="#">常見問題</a></li>
-        </ul>
-        <ul class="icon d-flex">
-          <li class="fb"><a href="#"></a></li>
-          <li class="ig"><a href="#"></a></li>
-          <li class="line"><a href="#"></a></li>
-        </ul>
+      <div class="footer-wrap">
+        <div class="footer-choice flex jc-sb aic mb-3 ">
+          <ul class="flex footer-menu">
+            <li class="me-4"><a href="#">首頁</a></li>
+            <li class="me-4"><a href="#">系列鏡框</a></li>
+            <li class="me-4"><a href="#">門市據點</a></li>
+            <li class="me-4"><a href="#">部落格</a></li>
+            <li class="me-4"><a href="#">常見問題</a></li>
+          </ul>
+          <ul class="flex icon">
+            <li class="ms-32"><a href="#"><img src="./image/footer/ic-social-fb.png" alt="fb"></a></li>
+            <li class="ms-32"><a href="#"><img src="./image/footer/ic_social_ig.png" alt="IG"></a></li>
+            <li class="ms-32"><a href="#"><img src="./image/footer/ic_social_line.png" alt="Line"></a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <ul class="mb-4">
+            <li class="flex aic mb-1">
+              <span class="material-symbols-outlined block me-2">
+                call
+                </span>
+              <a href="tel:+0800-000-000" class="fz-3">0800-000-000</a>
+            </li>
+            <li class="flex aic ">
+              <span class="material-symbols-outlined block me-2">mail</span>
+              <a href="" class="fz-3">glasses@business.com</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="f-contact">
-        <p class="fz-3">
-          <span class="material-symbols-outlined">
-          call
-          </span>
-          0800-000-000
-        </p>
-        <p class="fz-3">
-          <span class="material-symbols-outlined">
-            mail
-            </span>
-          glasses@business.com
-        </p>
-      </div>
-      <hr>
-      <div class="copyright d-flex jc-sb aic">
+        
+      <div class="flex jc-sb aic py-32 copyright">
         <p>Copyright © 2020 Glasses.All rights reserved.</p>
-        <ul class="privacy d-flex">
-          <li><a href="#">隱私權政策</a></li>
-          <li><a href="#">服務條款</a></li>
+        <ul class="flex privacy">
+          <li><a class="fz-6" href="#">隱私權政策</a></li>
+          <li class="ms-4"><a class="fz-6" href="#">服務條款</a></li>
         </ul>
       </div>
     </div>
