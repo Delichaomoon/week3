@@ -412,6 +412,10 @@
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
 }
@@ -472,6 +476,14 @@
   font-size: 32px;
 }
 
+.m-auto {
+  margin: 0 auto;
+}
+
+.me4 {
+  margin-right: 4px;
+}
+
 .mb4 {
   margin-bottom: 4px;
 }
@@ -490,6 +502,10 @@
 
 .py32 {
   padding: 32px 0;
+}
+
+.px176 {
+  padding: 0 176px;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -908,4 +924,52 @@ body {
 }
 .recommand-txt {
   padding: 16px;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 40px 0;
+  }
+}
+.contact-wrap {
+  margin: 0 auto;
+  width: 636px;
+}
+@media (max-width: 992px) {
+  .contact-wrap {
+    width: 576px;
+  }
+}
+@media (max-width: 768px) {
+  .contact-wrap {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .contact-wrap p {
+    font-size: 16px;
+  }
+}
+.contact-input {
+  width: 100%;
+  height: 36px;
+}
+.contact .btn {
+  margin: 0 auto;
+  max-width: 416px;
+}
+@media (max-width: 992px) {
+  .contact .btn {
+    max-width: 336px;
+  }
+}
+@media (max-width: 768px) {
+  .contact .btn {
+    max-width: 348px;
+  }
+}
+@media (max-width: 768px) {
+  .contact .agree {
+    margin-bottom: 24px;
+  }
 }/*# sourceMappingURL=all.css.map */
